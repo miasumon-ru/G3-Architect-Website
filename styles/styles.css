@@ -109,15 +109,21 @@ nav ul li a {
     header{
         padding: 20px;
     }
-    nav,ul{
+    .team-content, .teams-container{
+        padding: 0;
+    }
+    nav,ul,.teams-container{
         flex-direction: column;
+    }
+    .team-images-container{
+        grid-template-columns: 1fr;
     }
 
     
 }
 
 @media screen and (min-width:576px) and (max-width:992px) {
-    nav,ul{
+    nav,ul,.teams-container{
         flex-direction: column;
 }
 
