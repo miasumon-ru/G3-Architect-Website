@@ -54,6 +54,7 @@ nav ul li {
 nav ul li a {
     text-decoration: none;
     font-size: 1.3rem;
+    color: #424242;
 }
 
 /* banner starts */
@@ -66,5 +67,37 @@ nav ul li a {
     text-align: center;
 }
 .banner img{
+    width: 100%;
     margin-top: 40px;
+}
+
+
+
+
+
+/* responsive styles */
+/* for small devices */
+
+@media screen and (max-width:576px) {
+    header{
+        padding: 20px;
+    }
+    nav,ul{
+        flex-direction: column;
+    }
+
+    
+}
+
+@media screen and (min-width:576px) and (max-width:992px) {
+    nav,ul{
+        flex-direction: column;
+}
+
+header{
+    padding: 20px;
+}
+
+
+
 }
