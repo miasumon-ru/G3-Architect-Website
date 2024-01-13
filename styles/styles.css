@@ -128,6 +128,24 @@ nav ul li a {
     
 }
 
+/* sponsors starts */
+.sponsor-content{
+    text-align: center;
+}
+.sponsor-images-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center ;
+    margin-top: 40px;
+    gap: 20px;
+}
+.sponsor-images-container img{
+    max-width: 165px;
+
+}
+
+
+
 
 /* responsive styles */
 /* for small devices */
@@ -144,7 +162,7 @@ nav ul li a {
 
     nav,
     ul,
-    .teams-container, .fact-card-container{
+    .teams-container, .fact-card-container, .sponsor-images-container{
         flex-direction: column;
     }
 
@@ -159,7 +177,7 @@ nav ul li a {
 
     nav,
     ul,
-    .teams-container {
+    .teams-container, .sponsor-images-container {
         flex-direction: column;
     }
 
